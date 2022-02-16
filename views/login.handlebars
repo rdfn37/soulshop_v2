@@ -1,0 +1,14 @@
+<div class="m-1">
+    <h1>Login</h1>
+    <hr />
+    {{> error}}
+    <form action="/login" method="POST">
+        <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Email" />
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" name="password" placeholder="Senha" />
+        </div>
+        <button class="btn btn-primary">Login</button>
+    </form>
+</div>

@@ -1,0 +1,20 @@
+<div class="m-1">
+    <h1>Cadastro</h1>
+    <hr />
+    {{> error}}
+    <form action="/signup" method="POST">
+        <div class="mb-3">
+            <input type="text" class="form-control" name="name" placeholder="Nome" required />
+        </div>
+        <div class="mb-3">
+            <input type="date" class="form-control" name="birthdate" required />
+        </div>
+        <div class="mb-3">
+            <input type="email" class="form-control" name="email" placeholder="Email" required />
+        </div>
+        <div class="mb-3">
+            <input type="password" class="form-control" name="password" placeholder="Senha" required />
+        </div>
+        <button class="btn btn-primary">Login</button>
+    </form>
+</div>
